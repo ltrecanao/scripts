@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# base64 encode and decode
 while [[ -n "$1" ]]; do
         case "$1" in
                 -e|--encode)
